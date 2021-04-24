@@ -1,0 +1,80 @@
+body{
+font-family: sans-serif;
+	background: #ddfcff;
+}
+ 
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+	color: #010202;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	background: #46de4b;
+	color: rgb(0, 0, 0);
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+label{
+	font-size: 11pt;
+	color :#000000
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+.link{
+	color: #000000;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+//pencarian
+form {
+    width:500px;
+    margin:50px auto;
+}
+.search {
+    padding:8px 15px;
+    background:rgb(177, 250, 255);
+    border:0px solid #fffdfd;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #53bd84;
+    background-color:#92def5;
+    color:#050303;
+}
+.button:hover  {
+    background-color:#91e2fa;
+    color:#0061ff;
+}
